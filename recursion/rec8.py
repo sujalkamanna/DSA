@@ -1,9 +1,10 @@
 #power of no using recursion
-def power(x,n):
-    if n==0:
+def power(base , expo):
+    if expo ==0:
         return 1
     else:
-        return x*power(x,n-1)
+        return base*power(base,expo-1)
 
 print(power(2,4))
+
 
