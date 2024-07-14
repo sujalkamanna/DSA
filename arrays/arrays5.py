@@ -1,5 +1,4 @@
 # 1 create an array and traverse
-
 # 2 access individual elements through indexes
 # 3 append any value to array using append() method
 # 4 Insert value into array using insert() method
