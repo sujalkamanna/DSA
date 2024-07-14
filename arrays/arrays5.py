@@ -24,23 +24,28 @@ print("<------>")
 array_1.extend(array_2)
 print(array_1)
 print("<------>")
+
 # 6 add items from list into array using fromlist() method
 list1 = [10, 20, 100, 200, 300]
 array_1.fromlist(list1)
 print(array_1)
 print("<------>")
+
 # 7 remove any element using remove() method
 array_1.remove(300)
 print(array_1)
 print("<------>")
+
 # 8 remove last array element using pop() method
 array_1.pop()
 print(array_1)
 print("<------>")
+
 # 9 fetch any element through its index using index() method
 index = array_1.index(10)
 print(index)
 print("<------>")
+
 # 10 reverse a python array using reverse() method
 array_1.reverse()
 
@@ -49,6 +54,7 @@ array_1.reverse()
 buffer = array_1.buffer_info()
 print(buffer)
 print("<------>")
+
 # 12 check for no of occurance of element using count method
 print(array_1.count(10))
 print("<------>")
