@@ -14,4 +14,4 @@ for i in range(len(arr1)):
         if arr1[i][j] == 3:
             arr2 = np.delete(arr1 ,1 ,axis=0)
 
-print("\n",arr2)
+print("\n",arr2) 
