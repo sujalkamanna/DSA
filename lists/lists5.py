@@ -8,6 +8,7 @@ if key in list1:
 else :
     print("Not founf")    
 
+#linear search
 def find(list , n):
     for i in range(len(list)):
         if list[i] == key:
