@@ -9,4 +9,3 @@ print(dict2)
 
 for i in dict2:
     print(i, dict2[i])
-
