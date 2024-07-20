@@ -9,9 +9,11 @@ dict3 = {
 for i, j in enumerate(dict3):
     print(i+1, j)
 print("-------------------------")
-for i in dict3:
-    print(i, dict3[i])
+
 
 for x, y in enumerate(dict3, start=1):
     print(x, y)
 print("-------------------------")
+print("afser")
+for k in dict3:
+    print(k, dict3[k])
