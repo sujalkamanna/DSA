@@ -47,3 +47,4 @@ singly = sll()
 singly.insert_to_ssl(1,1)
 singly.insert_to_ssl(2,1)
 print([node.value for node in sll])
+
