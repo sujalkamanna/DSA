@@ -9,4 +9,7 @@ def hello():
     print("hello")
 
 x = function(hello)
-x()
+
+
+def decorator():
+    pass
