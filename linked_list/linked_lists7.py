@@ -8,7 +8,7 @@ class linked_list():
         self.head = None 
         self.tail = None 
 
-    def insert_at_beginning(self,new_data):
+    def at_beginning(self,new_data):
         new_node = Node(new_data)
         new_node.next = self.head
         self.head = new_node
@@ -31,6 +31,6 @@ ll.head.next = node2
 ll.head.next.next = node3 
 ll.tail = node3
 
-ll.insert_at_beginning(10)
+ll.at_beginning(10)
 
 ll.print_linked_list()
