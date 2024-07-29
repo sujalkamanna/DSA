@@ -19,7 +19,7 @@ obj3 = Node(3)
 linked_list.head = obj1
 linked_list.head.next = obj2
 linked_list.head.next.next = obj3
-linked_list.tail = obj2
+linked_list.tail = obj3
 
 print(linked_list.head.value)
 print(linked_list.tail.value)
