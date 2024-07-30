@@ -13,11 +13,13 @@ class linkedlist():
 
     def insert_after_node(self, prev_node, data):
         if not prev_node:
-            print("Prev node is not in list!")
-            return
+            print("not in list")
         new_node = Node(data)
         new_node.next = prev_node.next
         prev_node.next = new_node
+        
+        if prev_node == self.tail:
+            self.tail = new_node
 
     def printlist(self):
         current_node = self.head
